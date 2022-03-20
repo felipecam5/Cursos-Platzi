@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background: palegoldenrod;
+        }
+        .one{
+            z-index: 5;
+        }
+        .two{
+            z-index: 4;
+        }
+        .red{
+            z-index: 7;
+            width: 125px;
+            height: 125px;
+            background: red;
+        }
+        .blue{
+            z-index: 6;
+            width: 150px;
+            height: 150px;
+            background: blue
+        }
+        .yellow{
+            z-index: 10;
+            width: 10px;
+            height: 100px;
+            background: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one"> Master</div>
+    <div class="two"> Platzi </div>
+
+    <section>
+        <div class="red">Red</div>
+        <div class="blue">Blue</div>
+            <div class="yellow">Yellow</div>
+    </section>
+    </body>
+</html>

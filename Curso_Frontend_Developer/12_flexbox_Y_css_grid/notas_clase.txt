@@ -1,0 +1,2 @@
+https://platzi.com/blog/flexbox-vs-css-grid-cual-es-la-diferencia/
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
