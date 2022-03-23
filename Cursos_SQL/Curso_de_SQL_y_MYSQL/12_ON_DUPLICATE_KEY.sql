@@ -1,0 +1,1 @@
+INSERT INTO clients (client_id, name, email, birthdate, gender, active, created_at) VALUES (1,'Maria Dolores Gomez','Maria Dolores.95983222J@random.names','1971-06-06','M',1,'2018-04-09 16:51:30') ON DUPLICATE KEY UPDATE gender = VALUES(gender);
