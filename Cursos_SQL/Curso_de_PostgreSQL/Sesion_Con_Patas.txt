@@ -1,0 +1,11 @@
+SELECT nombre, COUNT(*) FROM platzi.alumnos WHERE nombre like 'A%' GROUP BY nombre;
+
+CUANTAS PERSONAS GANAN 5000, 3000, 2000
+
+SELECT colegiatura, COUNT(*), substring(string_agg(nombre, ',') from 1 for 30) AS TEST
+FROM platzi.alumnos 
+GROUP BY colegiatura
+ORDER BY TEST DESC 
+LIMIT 2;
+
+
