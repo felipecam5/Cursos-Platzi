@@ -1,0 +1,36 @@
+CREATE FUNCTION importantepl()
+RETURNS void
+AS $$
+DECLARE
+rec record := NULL;
+contador integer :=0;
+BEGIN
+FOR rec IN SELECT * FROM pasajeros LOOP
+	RAISE NOTICE 'un pasajero se llama %', rec.nombre;
+	contador := contador +1;
+	
+END LOOP;
+RAISE NOTICE 'En total hay % pasajeros', contador;
+END
+$$
+LANGUAGE PLPGSQL;
+
+SELECT importantepl();
+
+
+------------------------------------
+-PARA CREARLO EN PGADMIN-
+
+DECLARE
+rec record := NULL;
+contador integer :=0;
+RETURNS integer;
+BEGIN
+FOR rec IN SELECT * FROM pasajeros LOOP
+	RAISE NOTICE 'un pasajero se llama %', rec.nombre;
+	contador := contador +1;
+	
+END LOOP;
+RAISE NOTICE 'En total hay % pasajeros', contador;
+RETURN contador;
+END

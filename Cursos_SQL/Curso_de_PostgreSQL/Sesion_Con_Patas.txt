@@ -8,4 +8,8 @@ GROUP BY colegiatura
 ORDER BY TEST DESC 
 LIMIT 2;
 
-
+SELECT carrera, count(*) AS cantidad_de_estudiantes_por_carrera, substring(string_agg(nombre, ',') from 1 for 30) AS TEST
+FROM platzi.alumnos 
+INNER JOIN platzi.carreras ON alumnos.carrera_id=carreras.id
+GROUP BY carrera, nombre
+ORDER BY cantidad_de_estudiantes_por_carrera DESC;
