@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Mercado</title>
+    
+<style>
+    .img{
+        width: 20%;
+        height: 80%;
+        margin-top: 20px;
+    }
+    body { background-color: burlywood; }
+    
+    .main{
+        display: flex;
+        justify-content: space-between;
+        border: solid red;
+        border-radius: 40px;
+        margin-right: 100px;
+        margin-left: 50px;
+        background-color: whitesmoke;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+    }
+    .test{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        border: solid salmon;
+        border-radius: 40px;
+        margin-top: 10px;
+        margin-right: 500px;
+        margin-right: 170px;
+        margin-left: 170px;
+        background-color: azure;
+        justify-content: space-between;
+        justify-items: center;
+        
+        
+    }
+    .test img:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 3/4;
+        border: solid green;
+        
+    }
+    .test img:nth-child(n){
+        border: solid red;
+    }
+    main ul:nth-child(3){
+        margin-right: 15px;
+       
+    }
+    .video{
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .Header h1{
+        justify-content: center;
+       align-items: center;
+       align-content: center;
+       align-items: center;
+       display: flex;
+    }
+
+    
+    
+</style>
+
+</head>
+<body>
+    <header class ="Header">
+        <p>desafio</p>
+        <h1> Soy la lista del super!</h1>
+
+    </header>
+
+    <main class=" main">
+        <ul> 
+            <li> <h2> Frutas</h2> </li>
+            <ol>
+                <li> Manzana</li>
+                <li> Pera </li>
+                <li> Maracuya </li>                   
+            </ol>
+
+        </ul>
+        <ul> 
+            <li> <h2> Carnes </h2> </li>
+            <ol>
+                <li> Pollo</li>
+                <li> Pescado </li>
+                <li>
+                     <a href="https://www.recetasderechupete.com/como-hacer-la-hamburguesa-casera-perfecta/12659/"> Carne de Hamburguesa</a>
+                                     
+                </li>  
+                                
+            </ol>
+
+        </ul>
+        <ul> 
+            <li> <h2> Verduras</h2> </li>
+            <ol>
+                <li> Zanahoria </li>
+                <li> Tomate </li>
+                <li> Lechuga </li>                   
+            </ol>
+
+        </ul>
+        
+        
+
+
+    </main>
+    <section class="video">
+        <video src="./video playa corto mp4.mp4#t=5,10" controls preload="auto"></video>
+    </section>
+
+    
+
+    <footer class=" img2">
+        <figure class="test">
+            <img src="./hamburguesa_ternera_cebolla2.webp" class ="img" alt="BUG">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <img src="./hamburguesa_ternera_cebolla.webp" class ="img" alt="">
+            <FIGCaption> es una imagen de hamburguesas</FIGCaption>
+        </figure>
+        
+
+    </footer>
+
+    
+</body>
+</html>
