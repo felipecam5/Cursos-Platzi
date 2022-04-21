@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .formulario{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr ;
+         
+    }
+    .formulario label:nth-child(4){
+        margin-top: 10px;
+        
+        
+    }
+    .formulario label:nth-child(3){
+        margin-top: 10px;
+        
+    }
+    .formulario label:nth-child(1){
+        margin-top: 10px;
+        
+    }
+    .formulario label:nth-child(2){
+        margin-top: 10px;
+        
+    }
+    .sub{
+        display: flex;
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 20%;
+        grid-column: 1/3;
+        
+        
+    }
+    .sele{
+        width: 65%;
+        margin-top: 0px;
+    }
+    .formulario section{
+        margin-top: 10px;
+    }
+    .boton{
+        grid-column: 1/3;
+        margin-left: 20%;
+        margin-top: 10px;
+        width: 100;
+        justify-content: center;
+        justify-items: center;
+    }
+</style>
+</head>
+<body>
+    <main>
+        <form action="" class="formulario">
+            <label for="nombre">
+                <span>Cual es tu nombre</span>
+                <input type="text" id="nombre" name="nombre" autocomplete="name" required>
+            </label>
+            <label for="correo">
+                <span> Cual es tu Correo</span>
+                <input type="email" id="correo" name="correo" autocomplete="email" required>
+            </label>
+            <label for="pais">
+                <span>Cual es tu país</span>
+                <input type="text" id="pais" name="pais" autocomplete="country" required> 
+            </label>
+            <label for="cp" class="lab">
+                <span> Cual es tu codigo postal</span>
+                <input type="text" id="cp" name="cp" autocomplete="postal-code" required>
+                
+            </label>
+            <section>
+                <span> Seleccione el mejor Estudiantes</span>
+                <select name="" id="" class="sele">
+                
+                    <option value="Felipe Camacho"> Felipe Camacho </option>
+                    <option value="Maria Rodriguez"> Maria Rodriguez </option>
+                    <option value="Sebastian Prieto"> Sebastian Prieto </option>
+                    <option value="Carlos Valbuena"> Carlos Valbuena </option>
+                </select>
+            </section>
+            <section>
+                <span> Seleccione el mejor equipo</span>
+                <input list="cursos" required>
+         <datalist id="cursos">
+            <option value="Once Caldas"></option>
+            <option value="Millonarios"></option>
+            <option value="Medellin"></option>
+            <option value="Santa Fe"></option>
+        </datalist>
+            </section>
+            
+            <input type="submit" class="sub" value="envia">
+            <button type="submit" class="boton">Enviar</button>
+            
+            
+            
+        </form>
+        
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,15 @@
+.ab > li{
+    color: red;
+}
+h2 + p{
+    color: yellow;
+}
+section + p{
+    color: blueviolet;
+}
+.set{
+    border: solid red;
+}
+.set h3 ~ p{
+    color: aqua;
+}

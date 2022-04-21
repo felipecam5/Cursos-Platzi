@@ -69,6 +69,15 @@
        align-items: center;
        display: flex;
     }
+    .formulario{
+        display: flex;
+        justify-content:space-evenly;
+        
+    }
+    .formulario input:nth-child(n){
+        border: solid blue;
+    }
+
 
     
     
@@ -140,6 +149,20 @@
         
 
     </footer>
+    <form action="" class="formulario">
+        <label for="Nombre">
+            <span> Nombre</span>
+            <input type="text" id="Nombre" placeholder="Pepito Perez">
+        </label>
+        <label for="hora-desayuno">
+            <span> A que hora desayunas</span>
+            <input type="time" id="hora-desayuno">
+        </label>
+        <label for="ultima-vez">
+            <span>Cuando fue la ultima vez que desayunaste</span>
+            <input type="date" id="ultima-vez">
+        </label>
+    </form>
 
     
 </body>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+<style>
+    .Forms{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 30%;
+   }
+   .Forms input:nth-child(n){
+       border: solid rgb(21, 158, 83);
+       margin-top: 10px;
+   }
+   .forms{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 80%;
+        justify-content: space-evenly;
+        margin-top: 10px;
+   }
+   .forms input:nth-child(n){
+       border: solid rgb(130, 21, 158);
+       margin-top: 0px;
+       
+       
+   }
+</style>    
+</head>
+<body>
+    <div class ="Forms">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+        <input type="text">
+    </div>
+
+    <form action="" class="forms">
+        <label for="nombre">
+            <span> Cual es tu nombre</span>
+            <input type="text" id="nombre" placeholder="Pepito Perez" > 
+        </label>
+        <label for="inicio-platzi">
+            <span> Cuando iniciaste en platzi</span>
+            <input type="date" id="inicio-platzi" > 
+        </label>
+        <label for="horario">
+            <span> En que horario estudias</span>
+            <input type="time" id="horario" > 
+        </label>
+    </form>
+    
+</body>
+</html>
