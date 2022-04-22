@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+}
+
+main{
+    background-color: black;
+    width: 30%;
+    min-height: 600px;
+    margin: 40px;
+    min-width: 400px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+/*h1{
+    background-color: grey;
+    width: 60%;
+    height: 70px;
+    margin: 0  auto;
+    position: relative;
+    bottom: 30px;
+    border-radius: 20px;
+    border: solid black 3px;
+    display: flex;
+    border: solid red;   
+    align-items: center ;
+    
+}*/
+img{
+    width:80%;
+    height:80%;
+    
+        
+}
+.imagen{
+    height: 100%;
+    width: 70%;
+    border: gainsboro solid 5px;
+    margin: 20px auto;
+    
+}
+.letra{
+    color: white;
+    width: 80%;
+    margin: 15px auto;
+
+}
+.Axl-Rose{
+    margin: 35px 35px;
+}
+
+.Titulo{
+    background-color: white;
+    position: relative;
+    bottom: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    border: solid black 1px;
+}
+
+div > h1{
+    color: red;
+    display: flex;
+    justify-content: center;
+    margin: auto auto;
+}
+
+
+
+
+
+

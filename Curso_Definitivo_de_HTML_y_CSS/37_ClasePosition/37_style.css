@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.padre{
+    border: 2px black dashed;
+    display: inline-block;
+}
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+#dos {
+    background-color: aqua;
+    position: relative;
+    left: 10px;
+    top: 20px ;
+}
+#uno {
+    background-color: aqua;
+    position: static;
+}
