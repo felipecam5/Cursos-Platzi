@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.c1,.c2,.c3,.c4,.c5{
+    width: 100%;
+    min-width: 150px;
+    height: 180px;
+}
+.c1{
+    background-color: red;
+}
+.c2{
+    background-color: blue;
+}
+.c3{
+    background-color: green;
+}
+.c4{
+    background-color: yellow;
+    height: auto;
+}
+.c5{
+    background-color: burlywood;
+}
+
+section > div{
+    color: red;
+}
