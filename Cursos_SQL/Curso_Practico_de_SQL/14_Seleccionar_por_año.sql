@@ -38,3 +38,4 @@ FROM (
 	FROM platzi.alumnos
 ) AS fecha
 WHERE anio_incorporacion =2020 AND mes_incorporacion =5;
+
