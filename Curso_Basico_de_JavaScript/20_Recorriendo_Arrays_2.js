@@ -32,7 +32,7 @@ var CarrosUltimoModelo = CarrosEnCasa.find(function(carro){
 });
 
 CarrosEnCasa.forEach(function(carro){
-    console.log(carro.nombre);    
+    console.log(carro.nombre + carro.Modelo);    
 }); //Retorna solo el valor en consola
 
 var carrosviejos = CarrosEnCasa.some(function(carro){
