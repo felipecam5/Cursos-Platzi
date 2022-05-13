@@ -1,6 +1,18 @@
 function CalcularPrecioFinal(original,descuento)
 {
-    return ("El valor con un descuento del " + String(descuento) + "(%)" + " para el producto con valor original de " + Number(original) + " es " + ((Number(original)) * (100- Number(descuento)))/100 );
+    if(original == "" || descuento =="")
+    {
+        return ("Hay un camplo sin completar por lo que no se puede realizar el calculo")
+    }
+    else if( original < 0 || descuento < 0){
+        return ("No se admiten valores negativos en ninguno de los campos")
+    }
+    else{
+        
+        return ("El valor con un descuento del " + String(descuento) + "(%)" + " para el producto con valor original de " + Number(original) + " es " + ((Number(original)) * (100- Number(descuento)))/100 );
+
+    }
+    
 }
 
 function CalcularPrecioFinalHTML(){
