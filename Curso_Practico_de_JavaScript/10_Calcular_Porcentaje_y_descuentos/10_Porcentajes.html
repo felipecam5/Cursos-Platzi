@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de porcentajes y descuentos</title>
+    <link rel="stylesheet" href="./10_Porcentajes.css">
+    <link rel="stylesheet" href="./10_Porcentajes_y_Descuentos.js">
+</head>
+<body>
+    <header>
+        <h1> Calculo de Porcentajes y Descuentos</h1>
+    </header>
+    <main>
+        <h2> Calculo</h2>
+        <form action="">
+            <section class="Articulo">
+                <label for="PrecioOriginal">
+                    Introduzca el precio original del producto a llevar.   
+                </label>
+                <input id="PrecioOriginal" type="number">
+                <label for="Descuento">
+                    Introduzca el descuento (sin "%") a ser aplicado sobre el producto.   
+                </label>
+                <input id="Descuento" type="number">
+            </section>
+            
+
+        </form>
+        <section class=" boton">
+            <button type="button" onclick="CalcularPrecioFinalHTML()">
+                Calcular precio con descuento
+            </button>
+        </section>
+        <p id="Result"></p>
+    </main>
+
+    <script src="./10_Porcentajes_y_Descuentos.js"></script>
+</body>
+</html>
