@@ -32,7 +32,7 @@
     margin-top: 10px;
     height: 20px;
 }
-.tric{
+.tric, .CirculoD{
     
     display: flex;
     margin-top: 10px;
@@ -65,5 +65,17 @@
 }
 .inputB{
     margin-left: 10px;
+}
+.CirculoA{
+    margin-top: 10px;
+}
+
+.diametrocir{
+    margin-left: 15px;
+}
+
+.cir1{
+    margin-right: 5px;
+    margin-left: 15px;
 }
 

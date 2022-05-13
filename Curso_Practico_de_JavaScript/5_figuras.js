@@ -96,11 +96,43 @@ function circunferenciacirculo()
     return "La circunferencia del Circulo propuesto de diametro " + String(diametro) + " es " + (Number(diametro) * pi);
 }
 
+function circunferenciacirculo2(diametro)
+{
+    pi = Math.PI
+    return "La circunferencia del Circulo propuesto de diametro " + String(diametro) + " es " + (Number(diametro) * pi);
+}
+
+function circunferenciacirculoHTML()
+{
+    var input = document.getElementById("DiaCirculo");
+
+    var diametro = input.value;
+
+    var resultado = circunferenciacirculo2(diametro);
+
+    alert(resultado);
+}
+
 function areacirculo()
 {
     radio = prompt("Por favor, indique el radio del circulo")
     pi = 3.1416
     return "El area del Circulo propuesto de radio " + String(radio) + " es " + (Number(radio*radio) * pi);
+}
+
+function areacirculo2(radio)
+{
+    pi = Math.PI;
+    return "El area del Circulo propuesto de radio " + String(radio) + " es " + (Number(radio*radio) * pi);
+}
+
+function areacirculoHTML()
+{
+    var input = document.getElementById("AreaCirculo");
+    var radio = input.value;
+
+    var resultado = areacirculo2(radio);
+    alert(resultado);
 }
 
 console.group("Mensaje de Presentacion");
