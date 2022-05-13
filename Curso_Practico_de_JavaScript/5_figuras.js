@@ -30,7 +30,7 @@ function areatriangulo()
 function circunferenciacirculo()
 {
     diametro = prompt("Por favor, indique el diametro del circulo")
-    pi = Math.pi
+    pi = Math.PI
     return "La circunferencia del Circulo propuesto de diametro " + String(diametro) + " es " + (Number(diametro) * pi);
 }
 
