@@ -30,7 +30,7 @@ function areatriangulo()
 function circunferenciacirculo()
 {
     diametro = prompt("Por favor, indique el diametro del circulo")
-    pi = 3.1416
+    pi = Math.pi
     return "La circunferencia del Circulo propuesto de diametro " + String(diametro) + " es " + (Number(diametro) * pi);
 }
 
@@ -40,3 +40,25 @@ function areacirculo()
     pi = 3.1416
     return "El area del Circulo propuesto de radio " + String(radio) + " es " + (Number(radio*radio) * pi);
 }
+
+console.group("Mensaje de Presentacion");
+console.log("Hola Mundo, mi nombre es Felipe. Espero disfruten el codigo.")
+console.log("Me encuentran en linkedin")
+console.log("Tambien en Austria con el amor de mi vida")
+console.groupEnd;
+
+console.group("Instrucciones")
+console.log("A continuación encontrará agrupadas, varias funciones que podrá utilizar para calcular areas y perimetros de diferentes figuras geometricas ")
+console.groupEnd
+
+console.group("Cuadrado")
+console.log("Utilice las funciones areacuadrado() y perimetrocuadrado()")
+console.groupEnd
+
+console.group("Triangulo")
+console.log("Utilice las funciones perimetrotriangulo() y areatriangulo()")
+console.groupEnd
+
+console.group("Circulo")
+console.log("Utilice las funciones circunferenciacirculo() y areacirculo()")
+console.groupEnd
