@@ -102,7 +102,7 @@ function circunferenciacirculo2(diametro)
     return "La circunferencia del Circulo propuesto de diametro " + String(diametro) + " es " + (Number(diametro) * pi);
 }
 
-function circunferenciacirculoHTML()
+function circunferenciacirculoHTML2()
 {
     var input = document.getElementById("DiaCirculo");
 
@@ -126,7 +126,7 @@ function areacirculo2(radio)
     return "El area del Circulo propuesto de radio " + String(radio) + " es " + (Number(radio*radio) * pi);
 }
 
-function areacirculoHTML()
+function areacirculoHTML2()
 {
     var input = document.getElementById("AreaCirculo");
     var radio = input.value;
