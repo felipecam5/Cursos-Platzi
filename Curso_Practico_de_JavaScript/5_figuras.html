@@ -6,11 +6,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Figuras Geometricas</title>
     <link rel="stylesheet" href="./5_figuras.js">
+    <link rel="stylesheet" href="./5_figuras.css">
 </head>
 <body>
     <h1>
         Bienvenidos al calculo de Areas, Perimetros y Circunferencias
     </h1>
+    
+    <header>
+        <p> Este es el primer taller del curso practico de JavaScript</p>
+    </header>
+    <section>
+        <h2> Calcula el área y perímetro de un cuadrado</h2>
+        <form action="">
+            <label for="InputCuadrado">
+                Escribe cuanto mide cada lado de tu cuadrado:
+            </label>
+            <input id="InputCuadrado" type="number" >
+            <button type="button" onclick="perimetrocuadradoHTML()">
+                Calcular perímetro
+            </button>
+            <button type="button" onclick="areacuadradoHTML()">
+                Calcular el área
+            </button>
+        </form>
+    </section>
+    <section>
+        <h2> Calcula el área y perimetro de un triangulo</h2>
+        <section class="tria">
+            <label for="InputTrianguloLado1" class="a">
+            Escribe cuanto mide el primer lado
+            </label>
+            <input id="InputTrianguloLado1" type="number" class="inputtrianguloa" >
+        </section>
+        <section class="trib">
+            <label for="InputTrianguloLado2" class="b">
+                Escribe cuanto mide el Segundo lado
+            </label>
+            <input id="InputTrianguloLado2" type="number" class="inputtriangulob" >
+            <button type="button" onclick="perimetrotrianguloHTML()" class="tribu1">
+                Calcular perímetro
+            </button>
+                     
+        </section>
+        <section class="tric">
+            <label for="InputTrianguloLado3" class="c">
+                Escribe cuanto mide el Tercer lado
+            </label>
+            <input id="InputTrianguloLado3" type="number" class="inputtrianguloc" >
+        </section>     
+
+        <section class="triareaA">
+            <label for="Inputbase" class="areaa">
+                Escribe cuanto mide la base del triangulo
+            </label>
+            <input id="Inputbase" type="number" class="inputA" >
+            
+                       
+        </section>
+        <section class="triareab">
+            <label for="Altura" class="areab">
+                Escribe cuanto es la altura del Triangulo
+            <input id="Altura" type="number" class="inputB" >
+            <button type="button" onclick="areatrianguloHTML()" class="tribu1">
+                Calcular Área
+            </button>
+        </section>    
+        
+    </section>
     <script src="./5_figuras.js"></script>
 </body>
 </html>

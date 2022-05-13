@@ -6,10 +6,36 @@ function areacuadrado()
     return "El Area de un Cuadrado de lado " + lado + " es " + lado*lado;
 }
 
+function areacuadrado2(a)
+{
+    return "El Area de un Cuadrado de lado " + a + " es " + a*a;
+}
+
+function areacuadradoHTML()
+{
+    var input = document.getElementById("InputCuadrado")
+    var value = input.value;
+    var perimetro=areacuadrado2(value);
+    alert(perimetro)
+   
+}
+
 function perimetrocuadrado()
 {
     lado = prompt("Por favor, indique la longitud de un lado del cuadrado para calcular el perimetro de este.")
     return "El Area de un Cuadrado de lado " + lado + " es " + lado*4;
+}
+function perimetrocuadrado2(a)
+{
+    return "El Area de un Cuadrado de lado " + a + " es " + a*4;
+}
+function perimetrocuadradoHTML()
+{
+    var input = document.getElementById("InputCuadrado")
+    var value = input.value;
+    var perimetro=perimetrocuadrado2(value);
+    alert(perimetro)
+   
 }
 
 function perimetrotriangulo()
@@ -20,12 +46,48 @@ function perimetrotriangulo()
     return "El perimetro del triangulo propuesto de lados " + String(lado1) + "," + String(lado2) + "," + String(lado3) +  " es " + (Number(lado1)+Number(lado2)+Number(lado3));
 }
 
+function perimetrotriangulo2(a,b,c){
+    return "El perimetro del triangulo propuesto de lados " + String(a) + "," + String(b) + "," + String(c) +  " es " + (Number(a)+Number(b)+Number(c));
+}
+
+function perimetrotrianguloHTML()
+{
+    var input1 = document.getElementById("InputTrianguloLado1");
+    var input2 = document.getElementById("InputTrianguloLado2");
+    var input3 = document.getElementById("InputTrianguloLado3");
+
+    var value1= input1.value;
+    var value2= input2.value;
+    var value3= input3.value;
+
+    var perimetrot = perimetrotriangulo2(value1, value2,value3)
+    alert(perimetrot);
+
+}
+
 function areatriangulo()
 {
     base = prompt("Por favor, indique la base del triangulo")
     altura = prompt("Por favor, indique la altura del triangulo")
     return "El area del triangulo propuesto de base " + String(base) + " y altura " + String(altura) + " es " + (Number(base) * Number(altura))/2;
 }
+
+function areatriangulo2(a,b){
+    return "El area del triangulo propuesto de base " + String(a) + " y altura " + String(b) + " es " + (Number(a) * Number(b))/2;
+}
+
+function areatrianguloHTML()
+{
+    var base = document.getElementById("Inputbase");
+    var altura = document.getElementById("Altura");
+
+    var value1 = base.value;
+    var value2 = altura.value;
+
+    var areatriangulo = areatriangulo2(value1,value2);
+    alert(areatriangulo);
+}
+
 
 function circunferenciacirculo()
 {

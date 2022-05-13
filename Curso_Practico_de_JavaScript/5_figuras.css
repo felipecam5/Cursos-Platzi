@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 10;
+    
+}
+
+.a,.b,.c{
+    
+    display:block
+    
+}
+
+.a{
+    margin-bottom: 10px;
+}
+.b{
+    margin-bottom: 10px;
+}
+.c{
+    margin-bottom: 10px;
+}
+
+.tria{
+    display: flex;
+    width: 600px;
+    height: 20px;
+}
+.trib{
+    
+    display: flex;
+    margin-top: 10px;
+    height: 20px;
+}
+.tric{
+    
+    display: flex;
+    margin-top: 10px;
+    height: 20px;
+}
+
+.inputtrianguloa, .inputtrianguloc {
+    margin-left: 50px;    
+    
+}
+
+.inputtriangulob{
+    margin-left: 35px;
+}
+
+.tribu1{
+    margin-left: 30px;
+    margin-right: 5px;
+}
+
+.triareaA{
+    margin-top: 60px;
+}
+.triareab{
+    margin-top: 10px;
+}
+
+.inputA{
+    margin-left: 5px;
+}
+.inputB{
+    margin-left: 10px;
+}
+
