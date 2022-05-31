@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;   
+    
+
+}
+
+main{
+    
+    width: 100%;
+    height: 601px;
+}
+
+footer{
+    
+    width: 100%;
+    height: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgba(120, 116, 116, 0.156);
+    
+}
+
+.navegacion{
+
+    width: 30%;
+    height: 100%;
+    
+}
+.header_section{
+    
+    text-decoration: none; 
+    display: flexbox;
+    height: 100%;
+    margin-left: 150px;   
+    
+}
+
+ul > li{
+    color: red;
+    display:inline-flex
+    
+}
+ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center; 
+}
+
+img{
+    width: 90%;
+    height: 170px;
+    display:flex;
+
+}
+
+figure{
+   display: flex;
+    justify-content: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input{
+    margin-top: 30px; 
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;   
+}
+.botones{
+    margin-top: 30px;
+}
+ .botones > button{
+     margin-left: 20px;
+     width: 150px;
+     height: 40px;
+     border-radius: 5px;
+     border: 0.5px solid black;
+ }
+
+.intro{
+    width:500px;
+}
+.grupo1{
+    width: 35%;
+    display: flexbox;
+    height: 60px;
+            
+}
+
+.lista1 > a{
+    text-decoration: none;
+    color: black;
+}
+
+.lista1{
+    
+    justify-content: space-evenly;
+    
+}
+.grupo2{
+    width: 35%;
+    
+}
+.lista2{
+    
+    justify-content:flex-end;
+    margin-left: 90px;
+    
+}
+
+.lista2 a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+}
+.linkedin, .engine{
+    width: 10%;
+    height: 40%;
+    border-radius: 30px;
+}
+
+.header_section > ul > a{
+    text-decoration: none;
+    color: black;
+} 
