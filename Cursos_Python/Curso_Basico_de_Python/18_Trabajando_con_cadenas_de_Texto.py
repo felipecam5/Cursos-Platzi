@@ -1,0 +1,8 @@
+nombre = input("Escriba su nombre: ")
+nombre = nombre.upper()
+nombre = nombre.capitalize()
+nombre = nombre.lower()
+nombre = nombre.strip()
+nombre = nombre.replace("f", "p")
+print (nombre[0])
+print (len(nombre))
