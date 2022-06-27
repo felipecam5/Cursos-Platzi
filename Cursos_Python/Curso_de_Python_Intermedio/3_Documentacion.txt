@@ -1,0 +1,6 @@
+https://docs.python.org/3/
+
+Link donde encontramos documentación.
+
+PEPS:
+https://peps.python.org/

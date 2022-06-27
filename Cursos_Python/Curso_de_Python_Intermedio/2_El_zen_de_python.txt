@@ -1,0 +1,47 @@
+1. Bello es mejor que feo:
+    Codigo de manera limpia y estetica.
+
+2. Explicito es mejor que implicito:
+    Si es necesario extenderse más en nuestro codigo para que alguien lo entienda, se hace.
+
+3. Simple es mejor que complejo:
+    Si tenemos una implementación de pocas lineas y entendible, es mejor escoger esa.
+    
+4. Complejo es mejor que complicado:
+    Si al hacerlo simple lo hacemos mas o complicado, es mejor extenderse y hacerlo complejo.
+
+5. Plano es mejor que anidado:
+    No poner tantos bloques de codigo dependiente de otros, ya que la indentación se va a volver más grande.
+
+6. Espaciado es mejor que denso:
+    Sangria obligatoria que debemos cumplir.
+
+7. La legibilidad es importante:
+    Que otros desarrolladores puedan enteder nuestro codigo.
+
+8. Los casos especiales no son lo suficientemente especiales como para romper reglas:
+    En algun momento queremos quebrar esas reglas esteticas, pero es mejor que no.
+9. Sin embargo la practicidad le gana a la pureza.
+    Sin embargo, si le estamos metiendo mucho tiempo a que sea estetico, es mejor dejarlo así.
+10. Los errores nunca deberían pasar silenciosamente.
+    NUNCA!!
+11. A menos que se silencien explícitamente.
+    Debe ser hecho con una decisión fundada.
+12. Frente a la ambiguedad, evitar la tentación de adivinar.
+    Si el algoritmo puede aplicar en un contexto y en otro no, es mejor reevaluar el codigo.
+13. Deberia haber una, y preferiblemente solo una, manera obvia de hacerlo.
+
+14. A pesar de que esa manera no sea obvia a menos que seas holandés.
+
+15. Ahora es mejor que nunca:
+    Es mejor no dejar cosas para mañana cuando le perdamos el sentido al codigo.
+
+16. A pesar de que nunca es muchas veces mejor que *ahora* mismo.
+    Si por querer hacer las cosas ya, queda mal. Es mejor hacerlo despues.
+
+17. Si la implementación es dificil de explicar, es una mala idea.
+
+18. Si la implementación es fácil de explicar, puede que sea una buena idea.
+
+19. Los espacios de nombres son una gran idea, tengamos mas de esos:
+    TEMA AVANZADO
