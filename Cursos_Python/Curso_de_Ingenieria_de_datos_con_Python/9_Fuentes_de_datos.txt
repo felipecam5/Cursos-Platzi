@@ -1,0 +1,9 @@
+1. Api's
+
+2. Google Analytics
+
+3. Google Dataset Search
+
+4. data.world
+
+5. kaggle.com
