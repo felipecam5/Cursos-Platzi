@@ -1,0 +1,127 @@
+ .u-section-1 {
+  min-height: 600px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 570px;
+  height: 126px;
+  margin: -253px auto 0 calc(((100% - 1140px) / 2) + -578px);
+}
+
+.u-section-1 .u-shape-1 {
+  height: 260px;
+  margin-top: 245px;
+  margin-bottom: 0;
+  background-image: none;
+}
+
+.u-section-1 .u-image-2 {
+  width: 347px;
+  height: 347px;
+  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.4);
+  background-image: url("images/MeCropped1.jpg");
+  background-position: 50% 50%;
+  margin: -361px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  width: 647px;
+  text-transform: uppercase;
+  margin: 26px auto 0;
+}
+
+.u-section-1 .u-text-2 {
+  width: 483px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  border-style: solid;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 9px auto 17px;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 940px) / 2) + -578px);
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 257px;
+  }
+
+  .u-section-1 .u-text-2 {
+    font-size: 1rem;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-bottom: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 720px) / 2) + -578px);
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-image-1 {
+    margin-left: calc(((100% - 540px) / 2) + -578px);
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 540px;
+    margin-right: 38px;
+    margin-left: 108px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 44px;
+    margin-left: 114px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 38px;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    min-height: 593px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: -274px;
+    margin-left: calc(((100% - 340px) / 2) + -578px);
+  }
+
+  .u-section-1 .u-shape-1 {
+    margin-top: 278px;
+  }
+
+  .u-section-1 .u-image-2 {
+    width: 340px;
+    height: 340px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: 340px;
+    margin-right: 25px;
+    margin-left: 75px;
+  }
+
+  .u-section-1 .u-text-2 {
+    width: 340px;
+    margin-right: 25px;
+    margin-left: 75px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-bottom: 28px;
+    margin-left: 25px;
+  }
+}

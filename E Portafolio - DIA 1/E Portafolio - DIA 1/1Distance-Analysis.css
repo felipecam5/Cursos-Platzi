@@ -1,0 +1,22 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100px;
+}
+
+.u-section-1 .u-text-1 {
+  font-weight: 700;
+  font-style: italic;
+  margin: 14px 0;
+} .u-section-2 {
+  min-height: 567px;
+}
+
+.u-section-2 .u-custom-html-1 {
+  height: auto;
+  min-height: 507px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
