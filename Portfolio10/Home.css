@@ -1,0 +1,147 @@
+ .u-section-1 {
+  background-image: none;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 590px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  width: 100%;
+  margin: 0;
+}
+
+.u-section-1 .u-layout-cell-1 {
+  min-height: 608px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 0;
+}
+
+.u-section-1 .u-image-1 {
+  width: 361px;
+  height: 361px;
+  background-image: url("images/Foto_Presentacion.jpg");
+  background-position: 50% 50%;
+  margin: 109px auto 0 80px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 608px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 19px 57px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 14px auto 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 1rem;
+  margin: 35px 0 0 5px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-btn-2 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: solid;
+  transition-duration: 0.5s;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 35px auto 0 0;
+  padding: 2px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 510px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    background-position: 50% 50%;
+    min-height: 668px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 426px;
+    height: 426px;
+    margin-top: 98px;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 863px;
+  }
+
+  .u-section-1 .u-layout-cell-1 {
+    min-height: 1336px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 681px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 478px;
+  }
+}
+
+.u-section-1 .u-btn-2,
+.u-section-1 .u-btn-2:before,
+.u-section-1 .u-btn-2 > .u-container-layout:before {
+  transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2:hover {
+  border-radius: 10px !important;
+  border-style: solid !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+  font-weight: bold !important;
+  color: #478ac9 !important;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid !important;
+}
+
+.u-section-1 .u-btn-2.u-btn-2.u-btn-2.hover {
+  border-radius: 10px !important;
+  border-style: solid !important;
+  border-bottom-width: 2px !important;
+  border-color: #404040 !important;
+  font-weight: bold !important;
+  color: #478ac9 !important;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: solid !important;
+}
